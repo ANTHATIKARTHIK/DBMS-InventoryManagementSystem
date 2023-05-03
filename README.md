@@ -35,6 +35,7 @@ operations in RDBMS.
 • ORDERS
 • PRODUCT
 • USERS
+![Tables](http://url/to/img.png)
 
 # Java-SQL Connectivity using JDBC:
 Java Database Connectivity (JDBC) is an application programming
