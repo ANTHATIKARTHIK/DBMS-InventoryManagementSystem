@@ -59,29 +59,54 @@ The connection to the database can be performed using Java programming
 
 
 try
+
 {
+
 }
+
 Class.forName("oracle.jdbc.driver.OracleDriver");
+
 catch (Exception e)
+
 {
+
 System.err.println("Unable to find and load driver"); 
+
 System.exit(1);
+
 }
+
 public void connectToDB()
+
 {
+
 try
+
 {
+
 connection = 
+
 DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:ORCL","karthik","vasavi");
+
 statement = connection.createStatement();
+
 }
+
 catch (SQLException connectException)
+
 {
+
 System.out.println(connectException.getMessage()); 
+
 System.out.println(connectException.getSQLState()); 
+
 System.out.println(connectException.getErrorCode()); 
+
 System.exit(1);
+
 }
+
 }
+
 Thus, the connection from Java to Oracle database is performed and therefore, 
 can be used for updating tables in the database directly.
