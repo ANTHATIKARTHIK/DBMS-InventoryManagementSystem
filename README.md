@@ -40,7 +40,12 @@ operations in RDBMS.
 • PRODUCT
 • USERS
 
-![Tables](https://github.com/ANTHATIKARTHIK/DBMS-InventoryManagementSystem/blob/main/tables%20creation.png)
+# Tables Creation
+![tables creation](https://user-images.githubusercontent.com/83970965/236003777-36bb2cd7-9558-46a6-94b4-b7b47b763d83.png)
+
+# All tables with inputs
+![all tables](https://user-images.githubusercontent.com/83970965/236004258-cb9a52e7-68ac-4c88-979a-7f3df293409d.png)
+
 
 # Java-SQL Connectivity using JDBC:
 Java Database Connectivity (JDBC) is an application programming
