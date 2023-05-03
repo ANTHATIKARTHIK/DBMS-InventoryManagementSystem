@@ -21,6 +21,10 @@ and it can remove these purchased items from the inventory tally to keep an accu
 tracking information. Inventory Management System make it simple to locate and analyze 
 inventory information in real-time with a simple database search.
 
+# ER-Diagram
+
+![ER-diagram](https://user-images.githubusercontent.com/83970965/236003526-7dc43822-922e-4f89-87f1-67b4d6b8559f.png)
+
 # SQL:
 Structure Query Language (SQL) is a database query language used for storing 
 and managing data in Relational DBMS. SQL was the first commercial 
