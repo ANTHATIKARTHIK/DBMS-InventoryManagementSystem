@@ -86,7 +86,7 @@ try
 
 connection = 
 
-DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:ORCL","karthik","vasavi");
+DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:ORCL","SYS","PWD");
 
 statement = connection.createStatement();
 
